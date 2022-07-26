@@ -6,7 +6,7 @@ const app = express();
 
 const PORT = 8000;
 
-app.use(express())
+app.use(express.json())
 
 //?Defining routes and HTTP methods (verbs) of each route
 // !ROUTES                HTTP Method                   Description/Function
