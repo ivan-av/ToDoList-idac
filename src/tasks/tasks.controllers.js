@@ -9,3 +9,8 @@ const taskDB = [{
 const getAllTasks = () => {
     return taskDB
 }
+
+
+module.exports = {
+    getAllTasks
+}
